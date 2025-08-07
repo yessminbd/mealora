@@ -1,12 +1,34 @@
-# React + Vite
+# Mealora Restaurant - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site web frontend dynamique et animé pour le restaurant tunisien **Mealora**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## Expanding the ESLint configuration
+Ce projet est un site **frontend** développé avec **React**, utilisant **Vite** comme build tool.  
+Il intègre des animations modernes grâce à **Tailwind CSS**, **react-just-parallax** pour les effets de parallaxe au scroll, et **scroll-lock** pour la gestion du scroll (notamment lors des modales ou menus).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ce site présente une interface élégante et responsive pour mettre en valeur la cuisine tunisienne traditionnelle revisitée, offrant une expérience utilisateur fluide et immersive.
+
+---
+
+## Fonctionnalités principales
+
+- Interface responsive design avec Tailwind CSS  
+- Effets de parallaxe au scroll grâce à `react-just-parallax`  
+- Gestion du verrouillage du scroll avec `scroll-lock`  
+- Animations modernes et transitions douces  
+- Développement rapide et performant avec Vite  
+
+---
+
+## Tech Stack
+
+- React 18+  
+- Tailwind CSS  
+- Vite (build tool ultra rapide)  
+- react-just-parallax (effets parallaxe)  
+- scroll-lock (gestion du scroll)  
+- JavaScript (ES6+)  
+
