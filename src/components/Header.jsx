@@ -5,7 +5,6 @@ import { useLocation } from 'react-router-dom';
 import Button from './Button';
 import MenuSvg from '../assets/icons/menuSvg';
 import { disablePageScroll, enablePageScroll } from 'scroll-lock';
-import { BackgroundBurgers } from '../design/Hero';
 
 const Header = () => {
   
@@ -65,9 +64,9 @@ const Header = () => {
           <MenuSvg openNavigation={openNavigation} />
         </Button>
       </div>
-      <BackgroundBurgers/>
     </div>
   );
 };
 
 export default Header;
+
